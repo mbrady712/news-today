@@ -1,8 +1,8 @@
-<h2><?php echo $title; ?></h2>
+<h2><?= $title ?></h2>
 
-<?php echo validation_errors(); ?>
+<?= validation_errors() ?>
 
-<?php echo form_open('news/create'); ?>
+<?= form_open('news/create') ?>
 
     <label for="title">Title</label>
     <input type="text" name="title" /><br />
