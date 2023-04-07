@@ -14,7 +14,10 @@ class News extends CI_Controller {
                 $data['title'] = 'News archive';
 
                 $this->load->view('templates/header', $data);
-                $this->load->view('news/index', $data);
+                //Moved foreach loop into controller to maintain division of concerns
+                foreach($data['news'] as $data['news_item']){
+                        $this->load->view('news/index', $data);
+                }
                 $this->load->view('templates/footer');
         }
 
