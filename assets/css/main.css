@@ -1,0 +1,28 @@
+/*
+Color Pallette:
+Black: #242323
+Yale Blue: #0F428A
+White: #FFFFFF
+Red: #D53F3A
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Heading Font*/
+@font-face {
+    font-family: heading;
+    src: url(../fonts/headings/NewsOfTheWorldWide-KwaA.ttf);
+}
+
+body{
+    background-color: #FFF0E2;
+}
+
+h1, h2, h3{
+    color: #D53F3A;
+    font-family: heading, sans-serif;
+}
+
