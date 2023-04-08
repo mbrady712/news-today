@@ -32,6 +32,102 @@ body{
 
 /*Background photo by Zhang Kaiyv from Pexels: https://www.pexels.com/photo/high-rise-buildings-1139556/*/
 
+/*Nav*/
+
+.nav-section{
+    height: 100px;
+    background: #242323;
+}
+
+.nav-section a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFF0E2;
+    font-size: 40px;
+}
+
+.checkbox {
+    position: absolute;
+    display: block;
+    height: 38px;
+    width: 46px;
+    top: 29px;
+    left: 29px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.hamburger-lines {
+    display: block;
+    height: 38px;
+    width: 46px;
+    position: absolute;
+    top: 29px;
+    left: 29px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line{
+    display: block;
+    height: 6px;
+    width: 100%;
+    border-radius: 10px;
+    background: #FFF0E2;
+}
+
+.line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.menu-items {
+    padding: 40px 0 40px 0;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    background: #242323;
+}
+
+.menu-items a{
+    padding: 5px 0 5px 0;
+}
+
+input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+}
+  
+input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+  
+input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+  
+input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+#normnav{
+    display: none;
+}
+
 h1, h2{
     color: #D53F3A;
     font-family: heading, sans-serif;
