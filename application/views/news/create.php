@@ -1,15 +1,15 @@
-<h2><?= $title ?></h2>
+<div id="create">
+    <?= validation_errors() ?>
 
-<?= validation_errors() ?>
+    <?= form_open('news/create') ?>
 
-<?= form_open('news/create') ?>
+        <label for="title">Title</label><br />
+        <input id="title" type="text" name="title" /><br />
 
-    <label for="title">Title</label>
-    <input type="text" name="title" /><br />
+        <label for="text">Text</label><br />
+        <textarea name="text"></textarea><br />
 
-    <label for="text">Text</label>
-    <textarea name="text"></textarea><br />
+        <input id="submit" type="submit" name="submit" value="SUBMIT" />
 
-    <input type="submit" name="submit" value="Create news item" />
-
-</form>
+    </form>
+</div>
