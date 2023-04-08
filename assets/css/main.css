@@ -19,10 +19,55 @@ Red: #D53F3A
 
 body{
     background-color: #FFF0E2;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-h1, h2, h3{
+/*Background photo by Zhang Kaiyv from Pexels: https://www.pexels.com/photo/high-rise-buildings-1139556/*/
+
+h1, h2{
     color: #D53F3A;
     font-family: heading, sans-serif;
+}
+
+h3{
+    color: #242323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+p{
+    color: #242323;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page-header{
+    text-align: center;
+    font-size: 100px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.footer{
+    font-size: 30px;
+    background-color: #242323;
+    color: #FFF0E2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#content-wrap{
+    padding-bottom: 40px;
 }
 

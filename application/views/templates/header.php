@@ -1,7 +1,8 @@
 <html>
         <head>
-                <title>CodeIgniter Tutorial</title>
+                <title>News Today</title>
                 <link href="assets/css/main.css" rel="stylesheet">
         </head>
         <body>
-                <h1><?= $title ?></h1>
+                <div id="content-wrap">
+                        <h1 class="page-header"><?= $title ?></h1>
