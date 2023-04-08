@@ -2,6 +2,7 @@
         <head>
                 <title>News Today</title>
                 <link href="../../../assets/css/main.css" rel="stylesheet">
+                <meta content="width=device-width, initial-scale=1" name="viewport"/>
         </head>
         <body>
                 <nav class="nav-section">
@@ -21,8 +22,9 @@
                         </div>
                         <div id="normnav">
                                 <a href="../index.php">Home</a>
-                                <a href="../title.php">Title-Generator</a>
-                                <a href="../contact.php">Contact Me</a>
+                                <a href="../title.php">About</a>
+                                <a href="../contact.php">News</a>
+                                <a href="../contact.php">Create</a>
                         </div>
                 </nav>
                 <div id="content-wrap">
