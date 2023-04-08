@@ -128,25 +128,26 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     display: none;
 }
 
-h1, h2{
+h1{
     color: #D53F3A;
     font-family: heading, sans-serif;
 }
 
-h3{
+h2, h3{
     color: #242323;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 p{
     color: #242323;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 .page-header{
     text-align: center;
-    font-size: 100px;
+    font-size: 150px;
 }
 
 .centered{

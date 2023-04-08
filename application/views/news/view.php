@@ -1,2 +1,6 @@
-<h2><?= $news_item['title'] ?></h2>
-<?= $news_item['text'] ?>
+<div class="news-item">
+    <h2><?= $news_item['title'] ?></h2>
+    <p>
+        <?= $news_item['text'] ?>   
+    </p>
+</div>

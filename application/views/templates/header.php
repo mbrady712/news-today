@@ -1,7 +1,7 @@
 <html>
         <head>
                 <title>News Today</title>
-                <link href="assets/css/main.css" rel="stylesheet">
+                <link href="../../../assets/css/main.css" rel="stylesheet">
         </head>
         <body>
                 <nav class="nav-section">
