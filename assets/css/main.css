@@ -1,11 +1,8 @@
-/*
-Color Pallette:
-Black: #242323
-Yale Blue: #0F428A
-White: #FFFFFF
-Red: #D53F3A
-*/
-
+/*********************
+Name: Michael Brady
+Intermediate Web Programming
+Purpose: This web application uses the CodeIgniter framework to display and create news headlines and articles.
+**********************/
 *{
     margin: 0;
     padding: 0;
