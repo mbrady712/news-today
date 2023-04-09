@@ -1,1 +1,1 @@
-<p>Form successfully submitted</p>
+<p id="success">Form successfully submitted</p>
