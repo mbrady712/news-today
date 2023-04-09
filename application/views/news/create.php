@@ -1,5 +1,4 @@
 <div id="create">
-    <?= validation_errors() ?>
 
     <?= form_open('news/create') ?>
 
@@ -12,4 +11,9 @@
         <input id="submit" type="submit" name="submit" value="SUBMIT" />
 
     </form>
+
+    <div id="errors">
+        <?= validation_errors() ?>
+    </div>
+
 </div>
