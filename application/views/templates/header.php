@@ -1,8 +1,9 @@
 <html>
         <head>
-                <title>News Today</title>
+                <title><?= $title ?></title>
                 <link href="../../../assets/css/main.css" rel="stylesheet">
                 <meta content="width=device-width, initial-scale=1" name="viewport"/>
+                <link rel="icon" type="image/x-icon" href="../../../assets/favicon/favicon.ico">
         </head>
         <body>
                 <nav class="nav-section">
