@@ -1,4 +1,9 @@
 <?php
+/*********************
+Name: Michael Brady
+Intermediate Web Programming
+Purpose: This web application uses the CodeIgniter framework to display and create news headlines and articles.
+**********************/
 class Pages extends CI_Controller {
 
         public function view($page = 'home')
