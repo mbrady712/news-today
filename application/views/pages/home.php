@@ -1,1 +1,1 @@
-<h3 class="centered">The best source for news online.</h3>
+<h3 class="centered" id="home-text">The best source for news online.</h3>

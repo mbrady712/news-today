@@ -243,6 +243,14 @@ label{
     text-align: center;
 }
 
+#home-text{
+    background-color: rgba(255,240,226,.75);
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /*Responsive styles*/
 
 @media screen and (min-width: 600px) {
