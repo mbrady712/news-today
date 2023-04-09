@@ -14,17 +14,17 @@
                                                 <span class="line line3"></span>
                                         </div>  
                                 <div class="menu-items">
-                                        <a href="../index.php">Home</a>
-                                        <a href="../title.php">About</a>
-                                        <a href="../contact.php">News</a>
-                                        <a href="../contact.php">Create</a>
+                                        <a href="/index.php">Home</a>
+                                        <a href="/about">About</a>
+                                        <a href="/news">News</a>
+                                        <a href="/news/create">Create</a>
                                 </div>
                         </div>
                         <div id="normnav">
-                                <a href="../index.php">Home</a>
-                                <a href="../title.php">About</a>
-                                <a href="../contact.php">News</a>
-                                <a href="../contact.php">Create</a>
+                                <a href="/index.php">Home</a>
+                                <a href="/about">About</a>
+                                <a href="/news">News</a>
+                                <a href="/news/create">Create</a>
                         </div>
                 </nav>
                 <div id="content-wrap">
