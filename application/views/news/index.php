@@ -8,5 +8,5 @@ Purpose: This web application uses the CodeIgniter framework to display and crea
                 <p>
                         <?= $news_item['text'] ?>
                 </p>
-        <p><a href="<?= site_url('news/'.$news_item['slug']) ?>">View article</a></p>
+        <p><a href="<?= '/news/'.$news_item['slug'] ?>">View article</a></p>
 </div>
