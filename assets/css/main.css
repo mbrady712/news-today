@@ -251,6 +251,10 @@ label{
     border-radius: 5px;
 }
 
+[class = '1']{
+    color: #D53F3A;
+}
+
 /*Responsive styles*/
 
 @media screen and (min-width: 600px) {
