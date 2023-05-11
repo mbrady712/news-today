@@ -12,7 +12,7 @@ Purpose: This web application uses the CodeIgniter framework to display and crea
 </form>
 <div class="centered">
     <input type="submit" class="button" id="submit" name="submit"></input><br>
-    <input type="button" class="button" id="clear" value="clear" name="clear"></input>
+    <input type="button" class="button" id="clear" value="Clear" name="clear"></input>
     <div id="successmsg"></div>
     <div id="errmsg"></div>
 </div>

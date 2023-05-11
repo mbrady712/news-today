@@ -191,12 +191,15 @@ form{
     text-align: center;
 }
 
-#title, textarea{
-    font-size: 20px;
+.formInput, textarea{
+    font-size: 16px;
     color: #242323;
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 30px;
-    width: 50%;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: #FFF0E2;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 label{
@@ -207,14 +210,8 @@ label{
     margin-bottom: 30px;
 }
 
-#title, textarea{
-    background-color: #FFF0E2;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-#submit{
-    font-size: 20px;
+#submit, #clear{
+    font-size: 16px;
     background-color:#242323;
     font-family: Arial, Helvetica, sans-serif;
     color:#FFF0E2;
@@ -222,9 +219,10 @@ label{
     padding: 5px;
     cursor: pointer;
     transition: .25s;
+    width: 75px;
 }
 
-#submit:hover{
+#submit:hover, #clear:hover{
     background-color:#D53F3A;
 }
 
@@ -284,9 +282,9 @@ label{
     p{
         font-size: 20px;
     }
-    input, label, textarea{
-        font-size: 16px;
-    }  
+    .formInput, textarea{
+        width: 400px;
+    }
     body{
         background-position: center top;
     }
