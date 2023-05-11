@@ -13,9 +13,16 @@ class Pages extends CI_Controller {
                     // Whoops, we don't have a page for that!
                     show_404();
             }
+
+            $data['jQuery'] = '';
+            $data['js'] = '';
     
             if($page == 'home'){
                 $data['title'] = 'News Today';
+            }else if($page == 'contact'){
+                $data['jQuery'] = '<script src="../../../assets/js/jquery.min.js"></script>';
+                $data['js'] = '<script src="../../../assets/js/main.js"></script>';
+                $data['title'] = ucfirst($page);
             }else{
                 $data['title'] = ucfirst($page); // Capitalize the first letter
             }

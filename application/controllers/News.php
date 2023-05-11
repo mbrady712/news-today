@@ -17,9 +17,14 @@ class News extends CI_Controller {
         {
                 $data['news'] = $this->news_model->get_news();
                 $data['title'] = 'News archive';
+                $data['jQuery'] = '';
+                $data['js'] = '';
 
                 $this->load->view('templates/header', $data);
                 //Moved foreach loop into controller to maintain division of concerns
+                foreach($data['news'] as $data['news_item']){
+                        $this->load->view('news/index', $data);
+                }
                 $this->load->view('templates/footer');
         }
 
@@ -33,6 +38,8 @@ class News extends CI_Controller {
                 }
         
                 $data['title'] = $data['news_item']['title'];
+                $data['jQuery'] = '';
+                $data['js'] = '';
         
                 $this->load->view('templates/header', $data);
                 $this->load->view('news/view', $data);

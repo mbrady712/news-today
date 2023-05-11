@@ -7,5 +7,7 @@ Purpose: This web application uses the CodeIgniter framework to display and crea
             <div class="centered footer">
                 <em>News Today &copy; 2015</em>
             </div>
+            <?= $jQuery ?>
+            <?= $js ?>
         </body>
 </html>
