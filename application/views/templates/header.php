@@ -23,12 +23,14 @@ Purpose: This web application uses the CodeIgniter framework to display and crea
                                         <a href="/index.php">Home</a>
                                         <a href="/about">About</a>
                                         <a href="/news">News</a>
+                                        <a href="/contact">Contact</a>
                                 </div>
                         </div>
                         <div id="normnav">
                                 <a href="/index.php">Home</a>
                                 <a href="/about">About</a>
                                 <a href="/news">News</a>
+                                <a href="/contact">Contact</a>
                         </div>
                 </nav>
                 <div id="content-wrap">
