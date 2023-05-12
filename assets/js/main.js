@@ -55,31 +55,30 @@ function validate(){
 }
 
 function sendData(){
-    //AJAX implementation using raw JS
     let errmsg = document.getElementById("errmsg");
     let successmsg = document.getElementById("successmsg");
 
-    const XHR = new XMLHttpRequest();
-
     let formData = new FormData(document.getElementById("email-form"));
 
-    XHR.addEventListener('load', function (event) {
-        if (XHR.responseText === "okay") {
-            clearForm();
-            successmsg.innerHTML = "Your message was sent";
-        } else {
-            errmsg.innerHTML = "Sorry, your email was not sent";
+    $.ajax({
+        url: 'ajax/processemail',
+        type: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function (val) {
+            console.log(val);
+            if(val.includes("okay")){
+                clearForm();
+                successmsg.innerHTML = "Sent!";
+            }else{
+                errmsg.innerHTML = "Processing Error";
+            }
+        },
+        error: function () {
+            errmsg.innerHTML = "Server Error";
         }
     });
-
-    XHR.addEventListener('error', function (event) {
-        if (XHR.statusText !== "OK") {
-            errmsg.innerHTML = "Sorry, your email was not sent";
-        }
-    });
-
-    XHR.open('POST', 'email.php');
-    XHR.send(formData);
     
     return;
 }
