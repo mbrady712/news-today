@@ -67,7 +67,6 @@ function sendData(){
         processData: false,
         contentType: false,
         success: function (val) {
-            console.log(val);
             if(val.includes("okay")){
                 clearForm();
                 successmsg.innerHTML = "Sent!";
