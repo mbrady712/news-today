@@ -14,7 +14,6 @@ function initMap() {
   let markerOptions = {
       position: new google.maps.LatLng(40.7484, -73.9857),
       map: map,
-      label: "Headquarters",
       title: "Our headquarters",
       animation: google.maps.Animation.BOUNCE
 

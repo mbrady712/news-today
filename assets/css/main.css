@@ -276,6 +276,8 @@ label{
 
 #map{
     width: 80%;
+    height: 75%;
+    margin: 0 auto 30px auto;
 }
 
 /*Responsive styles*/
@@ -317,5 +319,11 @@ label{
         width: 500px;
         margin: 0 auto 0 auto;
         border-radius: 5px;
+    }
+    #headquarters{
+        font-size: 50px;
+    }
+    #map{
+        width: 50%;
     }
 }
