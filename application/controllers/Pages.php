@@ -19,6 +19,7 @@ class Pages extends CI_Controller {
     
             if($page == 'home'){
                 $data['title'] = 'News Today';
+                $data['js'] = '<script src="../../../assets/js/map.js"></script>';
             }else if($page == 'contact'){
                 $data['jQuery'] = '<script src="../../../assets/js/jquery.min.js"></script>';
                 $data['js'] = '<script src="../../../assets/js/main.js"></script>';
