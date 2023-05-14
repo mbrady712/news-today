@@ -4,6 +4,7 @@ Name: Michael Brady
 Intermediate Web Programming
 Purpose: This web application uses the CodeIgniter framework to display and create news headlines and articles.
 **********************/
+defined('BASEPATH') OR exit('Forbidden');
 class News_model extends CI_Model {
 
         public function __construct()
