@@ -269,6 +269,15 @@ label{
     width: 80%;
 }
 
+#headquarters{
+    font-size: 30px;
+    text-align: center;
+}
+
+#map{
+    width: 80%;
+}
+
 /*Responsive styles*/
 
 @media screen and (min-width: 600px) {
