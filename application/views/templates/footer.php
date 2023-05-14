@@ -9,5 +9,6 @@ Purpose: This web application uses the CodeIgniter framework to display and crea
             </div>
             <?= $jQuery ?>
             <?= $js ?>
+            <?= $api ?>
         </body>
 </html>
