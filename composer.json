@@ -1,0 +1,11 @@
+{
+    "name": "michaelb/newstoday",
+    "description": "Final project for Intermediate Web Programming Course",
+    "authors": [
+        {
+            "name": "Michael Brady",
+            "email": "michaelbrady712@gmail.com"
+        }
+    ],
+    "require": {}
+}
