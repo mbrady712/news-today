@@ -6,5 +6,4 @@ application/logs/*
 
 !application/*/.htaccess
 
-.htaccess
 /vendor/
